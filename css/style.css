@@ -1,0 +1,178 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+	#hero{
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-image: url("../images/header_bg.jpg");
+	height: 800px;
+}
+	#relaxr{
+		font: bold 48px "open sans", sans-serif;
+		color: white;
+		padding: 5%;
+	}
+	a:hover, a:visited, a:link, a:active {
+		text-decoration: none;
+	}
+
+	.hero-header-1 {
+		font: bold 48px "open sans", sans-serif;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		color: white;
+		text-align: center
+	}
+
+	.button-get-it-now {
+	    background-color: #f9e42e;
+	    border-radius: 5px;
+	    color: #121212;
+	    padding: 15px 62px;
+	   	text-decoration: none;
+	    display: inline-block;
+	    font: bold 28px "open sans", sans-serif;
+	    align: center;
+	   
+    }
+
+/**benefits Section**/
+
+	.benefits-section {
+		background-color: #f0efef;
+		padding-bottom: 10%;
+		font-color: #121212;
+	}
+
+	.Benefits-header {
+		font: bold 40px "open sans", sans-serif;
+		padding: 50px 30px;
+		padding-left: 5%;
+		color: #033048;
+	}
+	.p-1-benefits {
+		font: 300 26px/40px "open sans", sans-serif;
+		padding: 30px;
+		padding-left: 5%;
+		color: #606161;
+	}
+	ul {
+		font: 300 26px/40px "open sans", sans-serif;
+		padding: 30px;
+		padding-left: 15%;
+		color: #606161
+	}
+	/**quote Section**/
+	.quote-section{
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-image: url("../images/testimonial_bg.jpg");
+		height: 600px;
+		text-align: center;
+		padding: 10% 20%;
+}
+	.quote-on-water{
+		font: 300 48px "open sans", sans-serif;
+		font-style: italic;
+		padding: 50px 20px;
+		color: white
+}
+	.quote-author{
+		font: bold 48px "open sans", sans-serif;
+		padding-left: 15px;
+		color: white
+	}
+
+	/**yellow Section**/
+	.button-sign-up-now {
+	    background-color: #033048;
+	    border-radius: 5px;
+	    color: white;
+	    padding: 15px 62px;
+	   	text-decoration: none;
+	    display: inline-block;
+	    font: bold 24px "open sans", sans-serif;
+	    margin: 4px 2px;
+        cursor: pointer;
+        align: center;
+    }
+
+    .yellow-section{
+        background-color: #f9e42e;
+        padding: 25px;
+        position: static;
+        left: 50%;
+        }
+
+       /**footer Section**/
+
+        .footer {
+		background-color: #121212;
+        position: static;
+        left: 50%;
+        height: 400px;
+        text-align: center
+    }
+
+       #relaxr-footer {
+		font: bold 48px "open sans", sans-serif;
+		padding-top: 50%;
+		color: #f9e42e;
+	}
+	.icons {
+		display: block;
+    	margin: auto;
+    	padding-top: 5%;
+	}
+	.fb-icon, .twitter-icon {
+		padding: 20px;
+	}
+	.copyright-footer{
+		font: 400 18px "open sans", sans-serif;
+		padding-top: 5%;
+		color: white;
+	}
+	.footer-center-info {
+		padding-top: 60px;
+	}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/*
+Notes:
+to style link:
+a:link {color:#;}
+a:hover{:;}
+*/
+
+
+
